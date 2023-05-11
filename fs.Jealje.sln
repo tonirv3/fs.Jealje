@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje", "fs.Jealje\fs.Jealje.csproj", "{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje.form", "fs.Jealje.form\fs.Jealje.form.csproj", "{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
