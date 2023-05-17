@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje", "fs.Jealje\fs.Jealje.csproj", "{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fs.Jealje", "fs.Jealje\fs.Jealje.csproj", "{D2AA53BB-D8AD-440C-85CB-77F2EEAFA618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje.form", "fs.Jealje.form\fs.Jealje.form.csproj", "{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fs.Jealje.form", "fs.Jealje.form\fs.Jealje.form.csproj", "{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fs.jealje.api", "fs.jealje.api\fs.jealje.api.csproj", "{B91249D9-0101-4383-BF9C-D202ED7AE98E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3CF9028F-6AF6-4DE3-B7F4-3A194D108C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje.Dominio", "fs.Jealje.Dominio\fs.Jealje.Dominio.csproj", "{F4EA2929-775C-4D29-96D1-A3CBB7B7A11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fs.Jealje.Infraestructura", "fs.Jealje.Infraestructura\fs.Jealje.Infraestructura.csproj", "{8F827B4B-10A3-4775-BAD3-0D18D9CAAB23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1CCF6B9-643D-4F38-9AB8-E4F9E6140B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91249D9-0101-4383-BF9C-D202ED7AE98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91249D9-0101-4383-BF9C-D202ED7AE98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91249D9-0101-4383-BF9C-D202ED7AE98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91249D9-0101-4383-BF9C-D202ED7AE98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF9028F-6AF6-4DE3-B7F4-3A194D108C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF9028F-6AF6-4DE3-B7F4-3A194D108C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF9028F-6AF6-4DE3-B7F4-3A194D108C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF9028F-6AF6-4DE3-B7F4-3A194D108C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EA2929-775C-4D29-96D1-A3CBB7B7A11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EA2929-775C-4D29-96D1-A3CBB7B7A11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EA2929-775C-4D29-96D1-A3CBB7B7A11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EA2929-775C-4D29-96D1-A3CBB7B7A11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F827B4B-10A3-4775-BAD3-0D18D9CAAB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F827B4B-10A3-4775-BAD3-0D18D9CAAB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F827B4B-10A3-4775-BAD3-0D18D9CAAB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F827B4B-10A3-4775-BAD3-0D18D9CAAB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
