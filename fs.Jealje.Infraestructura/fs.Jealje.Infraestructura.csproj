@@ -17,4 +17,8 @@
     <ProjectReference Include="..\fs.Jealje.Dominio\fs.Jealje.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Db\" />
+  </ItemGroup>
+
 </Project>

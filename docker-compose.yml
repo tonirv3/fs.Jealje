@@ -12,6 +12,8 @@ services:
       image: mcr.microsoft.com/mssql/server
       ports:
          - "1433:1433"
+      volumes:
+         - "./fs.Jealje.Infraestructura/create-database.sql"
       environment:
-        SA_PASSWORD: "admin"
+        SA_PASSWORD: "Adminadmin10"
         ACCEPT_EULA: "Y"
